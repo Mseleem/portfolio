@@ -85,20 +85,7 @@ header p {
     max-width: 1200px;
 }
 
-#about-me  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    
-}
 
-.education, .work-experience, .web-design {
-    background-color: lightgray;
-    width: 300px;
-    height: 100px;
-    
-}
 
 .recent-work {
     display: flex;
