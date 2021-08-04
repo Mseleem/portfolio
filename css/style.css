@@ -119,6 +119,14 @@ header p {
     display: flex;
 }
 
+.animated-bio h1 {
+    font-size: 6vw;
+    position: relative;
+    overflow: hidden;
+    padding-left: 15vw;
+    padding-top: 15vw;
+}
+
 
 .recent-work {
     display: flex;
