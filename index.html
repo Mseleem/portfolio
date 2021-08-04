@@ -7,8 +7,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!--SLICK SLIDER CSS-->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
 
     <!--CSS File-->
     <link rel="stylesheet" href="css/style.css">
@@ -36,7 +35,15 @@
 
             </div>
             <div class="slider">
-
+                <div class="slider_div_1 education">
+                    <p>Education</p>
+                </div>
+                <div class="slider_div_2 work_exp">
+                    <p>Work Experience</p>
+                </div>
+                <div class="slider_div_3 skills">
+                    <p>Skills</p>
+                </div>
             </div>
 
         </div>
@@ -112,9 +119,17 @@
     <!--Jquery-->
     <script src="js/jquery-3.6.0.min.js"></script>
     <!--SLICK JS-->
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script>
-        
+        $(document).ready(function(){
+            $('.slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 800,
+            arrows: false,
+        });
+        })
     </script>
 </body>
 
