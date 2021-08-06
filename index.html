@@ -44,7 +44,12 @@
                 </div>
             </div>
             <div class="animated-bio">
-            
+                <h1>
+                    <span class="box"></span>
+                    <span class="hi">Hi, I'm</span>
+                    <span class="text"></span>
+                    <span class="cursor">-</span>
+                </h1>
             </div> 
 
         </div>
@@ -137,6 +142,20 @@
             arrows: false,
         });
         })
+
+        const words = ["Web Designer", "Front-End Developer", "looking for", "a beginner position"]
+
+        let cursor = gsap.to(".cursor", {opacity: 0, repeat: -1, ease: "power2.inOut"})
+        let box = gsap.to(".box", {width: 150, ease: "power2.inOut", duration: 2, repeat: -1, yoyo: true})
+
+
+        let masterTl = gsap.timeline({repeat: -1})
+
+        words.forEach(word => {
+        let tl = gsap.timeline({repeat:1, yoyo: true, repeatDelay: 1})
+        tl.to(".text", {duration: 1, text: word})
+        masterTl.add(tl)
+        }) 
     </script>
 </body>
 

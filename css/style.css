@@ -85,6 +85,11 @@ header p {
     max-width: 1200px;
 }
 
+#about-me {
+    display: flex;
+    flex-direction: column;
+}
+
 .slider {
     display: flex;
     flex-direction: row;
@@ -119,14 +124,27 @@ header p {
     display: flex;
 }
 
-.animated-bio h1 {
-    font-size: 6vw;
-    position: relative;
-    overflow: hidden;
-    padding-left: 15vw;
-    padding-top: 15vw;
+.animated-bio {
+    width: 600px;
+    margin: 50px auto;
 }
 
+.animated-bio h1 {
+    width: 650px;
+    font-size: 40px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.animated-bio h1 .box {
+    background-color: blue;
+    position: absolute;
+    height: 5px;
+    display: inline-block;
+    bottom: 0;
+}
 
 .recent-work {
     display: flex;
