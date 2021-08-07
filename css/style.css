@@ -104,14 +104,48 @@ header p {
 
 .slider_div_1 {
     background-color: red;
+    position: relative;
 }
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100% !important;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_div_1:hover .overlay, .slider_div_2:hover .overlay, .slider_div_3:hover .overlay {
+    opacity: 1;    
+}
+
+
+.overlay_text {
+    font-size: 20px;    
+    text-align: left;
+    padding: 20px 20px;
+}
+
+
 
 .slider_div_2 {
     background-color: green;
+    position: relative;
 }
 
 .slider_div_3 {
     background-color: yellow;
+    position: relative;
 }
 
 .slider_div_1, .slider_div_2, .slider_div_3 {
@@ -297,12 +331,6 @@ PROJECTS PAGE
     nav ul {
         justify-content: flex-end;
     }
-    .rotate {
-        writing-mode:vertical-lr;
-        text-orientation:upright;
-        font-size: 5rem;
-        padding-left: 10px;
-    }
     header {
         height: 100%;
     }
@@ -346,7 +374,10 @@ PROJECTS PAGE
     #contact .rotate  {
         display: block;
         padding-right: 30px;
-        font-size: 5rem;
+        font-size: 4.2rem;
+        writing-mode:vertical-lr;
+        text-orientation:upright;
+        padding-left: 10px;
     }
 
     .contact-info {
