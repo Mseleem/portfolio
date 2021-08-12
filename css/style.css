@@ -102,6 +102,10 @@ header p {
 .slider_div_1 {
     background-color: red;
     position: relative;
+    background-image: url("../images/education.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .overlay {
     position: absolute;
@@ -111,17 +115,17 @@ header p {
     right: 0;
     height: 100%;
     width: 100% !important;
-    opacity: 1;
+    opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #7eadbd;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/* .slider_div_1:hover .overlay, .slider_div_2:hover .overlay, .slider_div_3:hover .overlay {
+.slider_div_1:hover .overlay, .slider_div_2:hover .overlay, .slider_div_3:hover .overlay {
     opacity: 1;    
-} */
+}
 .overlay_text {
     font-size: 30px;    
     text-align: left;
@@ -131,10 +135,18 @@ header p {
 .slider_div_2 {
     background-color: green;
     position: relative;
+    background-image: url("../images/experience.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .slider_div_3 {
     background-color: yellow;
     position: relative;
+    background-image: url("../images/sky.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .slider_div_1, .slider_div_2, .slider_div_3 {
     display: flex;
@@ -494,6 +506,10 @@ PROJECTS PAGE
     .slider_div_1 {
         background-color: red;
         position: relative;
+        background-image: url("../images/education.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .overlay {
         position: absolute;
@@ -522,10 +538,18 @@ PROJECTS PAGE
     .slider_div_2 {
         background-color: green;
         position: relative;
+        background-image: url("../images/experience.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .slider_div_3 {
         background-color: yellow;
         position: relative;
+        background-image: url("../images/sky.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .slider_div_1, .slider_div_2, .slider_div_3 {
         display: flex;
