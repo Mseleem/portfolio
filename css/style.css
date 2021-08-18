@@ -6,7 +6,7 @@ html {
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 10px;
     margin: 0 auto;
     width: 100vw;
@@ -57,7 +57,7 @@ header h1 {
 header p {
     font-size: 1.6rem;
     padding: 1rem 0;
-    border-bottom: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
 }
 .rotate {
     margin-top: 2rem;
@@ -71,7 +71,7 @@ header p {
     background-color: #5C7CFA;
     background-position:center; 
     background-attachment:fixed; 
-    height: 100vh; 
+    height: 800px; 
     width: 100vw; 
     background-size:cover;
     /* max-width: 1200px; */
@@ -79,16 +79,19 @@ header p {
 #about-me {
     display: flex;
     flex-direction: column;
+    /* padding: 0 10px; */
 }
 .slider {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 30px;
+    width: 100%;
+    /* padding-top: 30px; */
+    flex-wrap: wrap;
 }
 .slider div {
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 157px;
     /* border-radius: 40px; */
 }
 .slider_div_1 {
@@ -184,9 +187,18 @@ header p {
     background-repeat: no-repeat;
 }
 .slider_div_3 {
-    background-color: yellow;
+    /* background-color: yellow; */
     position: relative;
     background-image: url("../images/sky_2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider_div_4 {
+    /* background-color: yellow; */
+    position: relative;
+    background-image: url("../images/sky.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -353,7 +365,7 @@ header p {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        padding-top: 30px;
+        /* padding-top: 30px; */
         width: 100%;
     }
     .slider div {
@@ -377,13 +389,24 @@ header p {
         background-repeat: no-repeat;
     }
     .slider_div_3 {
-        background-color: yellow;
+        /* background-color: yellow; */
         position: relative;
         background-image: url("../images/sky_2.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+
+    .slider_div_4 {
+        /* background-color: yellow; */
+        position: relative;
+        background-image: url("../images/prosample.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .overlay-edu {
         position: absolute;
         top: 0;
@@ -511,6 +534,56 @@ header p {
 }
 @media (min-width: 1300px) {
     .parallax {
-        height: 831px;
+        height: 800px;
     }
 }
+
+
+@media screen (min-width: 555px) {
+    .slider div {
+        height: 174px;
+    }
+}
+
+@media (min-width: 642px) {
+    .slider div {
+        height: 205px;
+    }
+}
+
+@media (min-width: 710px) {
+    .slider div {
+        height: 225px;
+    }
+}
+
+@media (min-width: 781px) {
+    .slider div {
+        height: 250px;
+    }
+}
+
+@media (min-width: 875px) {
+    .slider div {
+        height: 271px;
+    }
+}
+
+@media (min-width: 911px) {
+    .slider div {
+        height: 302px;
+    }
+}
+
+@media (min-width: 1030px) {
+    .slider div {
+        height: 333px;
+    }
+}
+
+@media (min-width: 1156px) {
+    .slider div {
+        height: 400px;
+    }
+}
+
