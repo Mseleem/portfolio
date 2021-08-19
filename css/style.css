@@ -10,15 +10,13 @@ body {
     width: 100vw;
     text-align: center;
     overflow-x: hidden;
-    /* max-width: 1200px; */
     background: white;
-    
 }
 hr {
     width: 100%;
     opacity: .5;
 }
-/* img { max-width: 100%;} */
+img { max-width: 100%;}
 ul {
     list-style: none;
     margin: 0;
@@ -69,46 +67,26 @@ header p {
  
 /*PARALLAX*/
 .parallax {
-    /* background-image: url('../css/Home-bg.jpg'); background-repeat: no-repeat;  */
-    background-color: #5C7CFA;
-    background-position:center; 
-    background-attachment:fixed; 
     height: 800px; 
     width: 100vw; 
-    background-size:cover;
-    /* max-width: 1200px; */
 }
-#about-me {
-    display: flex;
-    flex-direction: column;
-    /* padding: 0 10px; */
-}
+
 .slider {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
-    /* padding-top: 30px; */
     flex-wrap: wrap;
 }
 .slider div {
     width: 50%;
-    height: 157px;
-    /* border-radius: 40px; */
+    height: 200px;
 }
-
 .slider img {
     width: 100%;
-    /* height: 100%; */
 }
-
 .slider_div_1 {
-    background-color: red;
-    position: relative;
-    /* background-image: url("../images/education.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    
 }
 .slider_div_1 p, .slider_div_2 p, .slider_div_3 p {
     font-weight:800;
@@ -120,102 +98,24 @@ header p {
 .slider_div_2 > p {
     color: lightgreen;
 }
-.overlay-edu {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100% !important;
-    opacity: 0;
-    transition: .5s ease;
-    background-image: url("../images/education.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.overlay-work {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100% !important;
-    opacity: 0;
-    transition: .5s ease;
-    background-image: url("../images/experience.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.overlay-skills {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100% !important;
-    opacity: 0;
-    transition: .5s ease;
-    background-image: url("../images/sky_2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.slider_div_1:hover .overlay-edu, .slider_div_2:hover .overlay-work, .slider_div_3:hover .overlay-skills {
-    opacity: 1;    
-}
-.overlay_text {
-    font-size: 30px;    
-    text-align: left;
-    padding: 20px 20px;
-    line-height: 50px;
-}
+
 .slider_div_2 {
-    background-color: green;
-    position: relative;
-    /* background-image: url("../images/experience.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+
 }
 .slider_div_3 {
-    background-color: yellow;
-    position: relative;
-    /* background-image: url("../images/sky_2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    
 }
 
 .slider_div_4 {
-    background-color: orange;
-    position: relative;
-    /* background-image: url("../images/sky.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.slider_div_1, .slider_div_2, .slider_div_3 {
+/* .slider_div_1, .slider_div_2, .slider_div_3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 .slick-initialized .slick-slide {
     display: flex;
 }
@@ -361,19 +261,12 @@ header p {
         color: white;
         font-size: 3rem;
         height: 800px;
-
-    }
-
-    #about-me {
-        display: flex;
-        flex-direction: column;
     }
     .slider {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        /* padding-top: 30px; */
         width: 100%;
     }
     .slider div {
@@ -381,114 +274,23 @@ header p {
         height: 400px;
     }
     .slider_div_1 {
-        background-color: red;
-        position: relative;
-        /* background-image: url("../images/education.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; */
+        
     }
     .slider_div_2 {
-        background-color: green;
-        position: relative;
-        /* background-image: url("../images/experience.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; */
+        
     }
     .slider_div_3 {
-        background-color: yellow;
-        position: relative;
-        /* background-image: url("../images/sky_2.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; */
+        
     }
-
-
     .slider_div_4 {
-        background-color: orange;
-        position: relative;
-        /* background-image: url("../images/prosample.png");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; */
+        
     }
 
-    .overlay-edu {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100% !important;
-        opacity: 0;
-        transition: .5s ease;
-        background-image: url("../images/education.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    /* .slider_div_1, .slider_div_2, .slider_div_3 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-    }
-    .overlay-work {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100% !important;
-        opacity: 0;
-        transition: .5s ease;
-        background-image: url("../images/experience.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .overlay-skills {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100% !important;
-        opacity: 0;
-        transition: .5s ease;
-        background-image: url("../images/sky_2.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .slider_div_1:hover .overlay-edu, .slider_div_2:hover .overlay-work, .slider_div_3:hover .overlay-skills {
-        opacity: 1;    
-    }
-
-    .overlay_text {
-        font-size: 35px;    
-        text-align: left;
-        padding:30px 50px;
-        line-height: 47px;
-        font-weight: bold;
-    }
-    
-    .slider_div_1, .slider_div_2, .slider_div_3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    } */
     .slick-initialized .slick-slide {
         display: flex;
     }
