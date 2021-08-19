@@ -3,8 +3,6 @@
 html {
     background: #eee;
 }
-
-
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
@@ -14,14 +12,13 @@ body {
     overflow-x: hidden;
     /* max-width: 1200px; */
     background: white;
+    
 }
 hr {
     width: 100%;
     opacity: .5;
 }
-img {
-    max-width: 100%;
-}
+/* img { max-width: 100%;} */
 ul {
     list-style: none;
     margin: 0;
@@ -40,7 +37,7 @@ header {
     height: 100vh;
 }
 header p, header h1, header h3, header ul {
-    color: oldlace;
+    color: #35343a;
 }
 nav ul {
     font-size: 1.2rem;
@@ -51,8 +48,13 @@ nav ul {
 nav li {
     margin: 0 1rem;
 }
+
+.header-bio{
+    padding: 0 20px;
+}
 header h1 {
-    font-size: 5rem;
+    font-size: 35px;
+    text-align: left;
 }
 header p {
     font-size: 1.6rem;
@@ -94,13 +96,19 @@ header p {
     height: 157px;
     /* border-radius: 40px; */
 }
+
+.slider img {
+    width: 100%;
+    /* height: 100%; */
+}
+
 .slider_div_1 {
     background-color: red;
     position: relative;
-    background-image: url("../images/education.jpg");
+    /* background-image: url("../images/education.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .slider_div_1 p, .slider_div_2 p, .slider_div_3 p {
     font-weight:800;
@@ -181,27 +189,27 @@ header p {
 .slider_div_2 {
     background-color: green;
     position: relative;
-    background-image: url("../images/experience.jpg");
+    /* background-image: url("../images/experience.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .slider_div_3 {
-    /* background-color: yellow; */
+    background-color: yellow;
     position: relative;
-    background-image: url("../images/sky_2.jpg");
+    /* background-image: url("../images/sky_2.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .slider_div_4 {
-    /* background-color: yellow; */
+    background-color: orange;
     position: relative;
-    background-image: url("../images/sky.jpg");
+    /* background-image: url("../images/sky.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .slider_div_1, .slider_div_2, .slider_div_3 {
     display: flex;
@@ -213,7 +221,7 @@ header p {
 }
 .animated-bio {
     width: 400px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
 }
 .animated-bio h1 {
     width: 650px;
@@ -375,36 +383,36 @@ header p {
     .slider_div_1 {
         background-color: red;
         position: relative;
-        background-image: url("../images/education.jpg");
+        /* background-image: url("../images/education.jpg");
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
     .slider_div_2 {
         background-color: green;
         position: relative;
-        background-image: url("../images/experience.jpg");
+        /* background-image: url("../images/experience.jpg");
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
     .slider_div_3 {
-        /* background-color: yellow; */
+        background-color: yellow;
         position: relative;
-        background-image: url("../images/sky_2.jpg");
+        /* background-image: url("../images/sky_2.jpg");
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
 
 
     .slider_div_4 {
-        /* background-color: yellow; */
+        background-color: orange;
         position: relative;
-        background-image: url("../images/prosample.png");
+        /* background-image: url("../images/prosample.png");
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
 
     .overlay-edu {
@@ -539,51 +547,44 @@ header p {
 }
 
 
-@media screen (min-width: 555px) {
+/* @media (min-width: 555px) {
     .slider div {
         height: 174px;
     }
 }
-
 @media (min-width: 642px) {
     .slider div {
         height: 205px;
     }
 }
-
 @media (min-width: 710px) {
     .slider div {
         height: 225px;
     }
 }
-
 @media (min-width: 781px) {
     .slider div {
         height: 250px;
     }
 }
-
 @media (min-width: 875px) {
     .slider div {
         height: 271px;
     }
 }
-
 @media (min-width: 911px) {
     .slider div {
         height: 302px;
     }
 }
-
 @media (min-width: 1030px) {
     .slider div {
         height: 333px;
     }
 }
-
 @media (min-width: 1156px) {
     .slider div {
         height: 400px;
     }
-}
+} */
 
