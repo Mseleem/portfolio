@@ -42,24 +42,26 @@
                     <span class="cursor">-</span>
                 </h1>
         </div> 
+        <div class="punch_line">
+            <p>I find joy in solving problems and looking up solutions for them, and so this is the motive behind my decision to switch to web design. I like reading, walking, coffee and pasta.</p>
+        </div>
     </header>
 
 
     <section class="parallax"> 
         
             <div class="slider">
-                <div class="slider_div_1 education">
-                    <img src="images/education.jpg" alt="">
+                <div class="slider_div_1 education me_bio">
+                    <img src="images/about_me.png" alt="">
                 </div>
                 <div class="slider_div_2 work_exp">
-                    <img src="images/education.jpg" alt="">
-                    
+                    <img src="images/experience.jpg" alt=""> 
                 </div>
-                <div class="slider_div_3 skills">
+                <div class="slider_div_3 education">
                     <img src="images/education.jpg" alt="">
                 </div>
-                <div class="slider_div_4 sample">
-                    <img src="images/education.jpg" alt="">
+                <div class="slider_div_4 sample skills">
+                    <img src="images/skills.jpg" alt="">
                 </div>
             </div>
                 
@@ -105,19 +107,19 @@
         // });
         // })
 
-        // const words = ["Web Designer", "Front-End Developer", "looking for a beginner position"]
+        const words = ["Web Designer", "Front-End Developer"]
 
-        // let cursor = gsap.to(".cursor", {opacity: 0, repeat: -1, ease: "power2.inOut"})
-        // let box = gsap.to(".box", {width: 100, ease: "power2.inOut", duration: 2, repeat: -1, yoyo: true})
+        let cursor = gsap.to(".cursor", {opacity: 0, repeat: -1, ease: "power2.inOut"})
+        let box = gsap.to(".box", {width: 100, ease: "power2.inOut", duration: 2, repeat: -1, yoyo: true})
 
 
-        // let masterTl = gsap.timeline({repeat: -1})
+        let masterTl = gsap.timeline({repeat: -1})
 
-        // words.forEach(word => {
-        // let tl = gsap.timeline({repeat:1, yoyo: true, repeatDelay: 1})
-        // tl.to(".text", {duration: 1, text: word})
-        // masterTl.add(tl)
-        // }) 
+        words.forEach(word => {
+        let tl = gsap.timeline({repeat:1, yoyo: true, repeatDelay: 1})
+        tl.to(".text", {duration: 1, text: word})
+        masterTl.add(tl)
+        }) 
     </script>
 </body>
 

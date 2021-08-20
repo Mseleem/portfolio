@@ -57,7 +57,6 @@ header h1 {
 header p {
     font-size: 1.6rem;
     padding: 1rem 0;
-    /* border-bottom: 1px solid lightgray; */
 }
 .rotate {
     margin-top: 2rem;
@@ -67,20 +66,19 @@ header p {
  
 /*PARALLAX*/
 .parallax {
-    height: 800px; 
+    /* height: 800px;  */
     width: 100vw; 
 }
 
 .slider {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     width: 100%;
     flex-wrap: wrap;
 }
 .slider div {
     width: 50%;
-    height: 200px;
+    height: 150px;
 }
 .slider img {
     width: 100%;
@@ -107,25 +105,19 @@ header p {
 }
 
 .slider_div_4 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ 
 }
-/* .slider_div_1, .slider_div_2, .slider_div_3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 .slick-initialized .slick-slide {
     display: flex;
 }
 .animated-bio {
     width: 400px;
+    padding: 0 20px;
     /* margin: 20px auto; */
 }
 .animated-bio h1 {
     width: 650px;
-    font-size: 23px;
+    font-size: 20px;
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -138,6 +130,16 @@ header p {
     height: 5px;
     display: inline-block;
     bottom: 0;
+}
+
+.punch_line p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 15px;
 }
 /*RECENT WORK SECTION*/
 .recent-work {
@@ -164,7 +166,7 @@ header p {
     flex-direction: column;
     padding: 1rem;
     height: 100vh;
-    background-color:brown;
+    background-color:#FAB598;
     color:cornsilk;
     max-width: 1200px;
 }
@@ -285,12 +287,6 @@ header p {
     .slider_div_4 {
         
     }
-
-    /* .slider_div_1, .slider_div_2, .slider_div_3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
     .slick-initialized .slick-slide {
         display: flex;
     }
