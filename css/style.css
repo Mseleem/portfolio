@@ -78,14 +78,65 @@ header p {
 }
 .slider div {
     width: 50%;
-    height: 150px;
+    height: 167px;
+}
+
+.slider div:hover {
+    opacity: 1;
+    transition: opacity ease-in-out 1s;
 }
 .slider img {
     width: 100%;
 }
 .slider_div_1 {
-    
+    position: relative;
 }
+
+.overlay {
+    position: absolute;
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    /* top: 0; */
+    bottom: 0;
+    opacity: 0;
+}
+
+.overlay_text {
+    margin: 0 auto;
+    width: 100% !important;
+    padding-top: 50px;
+}
+
+.overlay_text p {
+    font-size: 15px;
+    width: 34.4vh;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+    margin: 0 auto;
+
+}
+
+.me_bio_overlay {
+    background-color:#E75B4A;
+}
+
+.work_exp_overlay {
+    background-color: #96dba4;
+}
+
+.education_overlay {
+    background-color: #5677ae;
+}
+
+.skills_overlay {
+    background-color: #fdf900;
+}
+
+
 .slider_div_1 p, .slider_div_2 p, .slider_div_3 p {
     font-weight:800;
 } 
@@ -98,14 +149,14 @@ header p {
 }
 
 .slider_div_2 {
-
+    position: relative;
 }
 .slider_div_3 {
-    
+    position: relative;
 }
 
 .slider_div_4 {
- 
+    position: relative;
 }
 .slick-initialized .slick-slide {
     display: flex;
