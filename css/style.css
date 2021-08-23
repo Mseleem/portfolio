@@ -132,7 +132,7 @@ header p {
 }
 
 .skills_overlay {
-    background-color: #fdf900;
+    background-color: #c7c42b;
 }
 
 
@@ -501,7 +501,7 @@ header p {
 }
 
 .delay3{
-    animation-delay: 12s; 
+    animation-delay: 8s; 
 }
 
 @keyframes fadeIn {
