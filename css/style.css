@@ -81,10 +81,10 @@ header p {
     height: 167px;
 }
 
-.slider div:hover {
+/* .slider div:hover {
     opacity: 1;
     transition: opacity ease-in-out 1s;
-}
+} */
 .slider img {
     width: 100%;
 }
@@ -97,9 +97,8 @@ header p {
     display: block;
     width: 100% !important;
     height: 100% !important;
-    /* top: 0; */
     bottom: 0;
-    opacity: 0;
+    opacity: 1;
 }
 
 .overlay_text {
@@ -317,19 +316,23 @@ header p {
   100% {width: 0px;}
 }
 
-  /*
-  0%   {background: red; left: 0px; top: 0px;}
-  25%  {background: yellow; left: 200px; top: 0px;}
-  50%  {background: blue; left: 200px; top: 200px;}
-  75%  {background: green; left: 0px; top: 200px;}
-  100% {background: red; left: 0px; top: 0px;}
 
+@media screen and  (max-width: 494px) {
+    .slider div {
+        /* height: 151px; */
+        height: 120px;
+    }
+    .overlay_text {
+        padding-top: 20px;
+    }
+    .overlay_text p {
+        font-size: 13px;
+        width: 120px; 
+    }
 
-  */
+}
 
 @media screen and (min-width: 900px){
-
-    
     body {
         width: 100vw;
         margin: 0 auto;
