@@ -38,13 +38,20 @@ header p, header h1, header h3, header ul {
     color: #35343a;
 }
 nav ul {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 nav li {
     margin: 0 1rem;
+    transition: box-shadow ease-in-out 1s;
+}
+
+nav li:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .header-bio{
@@ -180,6 +187,7 @@ header p {
     font-weight: 500;
     padding-top: 15px;
 }
+
 /*RECENT WORK SECTION*/
 .recent-work {
     display: flex;
@@ -395,12 +403,16 @@ header p {
     text-decoration: none;
     display: block;
     font-style: italic;
-    /* transform: translateX(10px); */
-    transition: translate ease-in-out 2s;
+    transform: translateX(0px);
+    transition: transform ease-in-out 2s, background-color ease-in-out 2s;
+    color:white;
+    width: 180px;
+    padding-left: 4px;
 }
 
 .about_wrapper_wrapper_overlay a:hover {
-    transform: translateX(20px);
+    transform: translateX(10px);    
+    background-color: #E75B4A;
 }
 
 /*EXPERIENCE PAGE*/
@@ -430,22 +442,75 @@ header p {
 .exp_wrapper_exp_one,.exp_wrapper_exp_two, .credits {
     margin-top: 0;
     color:#ffffff;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: left;
     padding: 20px 25px;
 }
 
 .exp_wrapper_wrapper_overlay a {
+    width: 180px;
     text-align: left;
     text-decoration: none;
     display: block;
     font-style: italic;
-    /* transform: translateX(10px); */
-    transition: translate ease-in-out 2s;
+    transform: translateX(0px);
+    transition: transform ease-in-out 2s, background-color ease-in-out 2s;
+    color:white;
+    padding-left: 4px;
 }
 .exp_wrapper_wrapper_overlay a:hover {
-    transform: translateX(20px);
+    transform: translateX(10px);    
+    background-color: #96dba4;
 }
+
+/*education PAGE*/
+
+.edu_wrapper {
+    width: 100%;
+}
+
+.edu_wrapper_wrapper {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/education.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.edu_wrapper_wrapper_overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #3b1e11;
+    opacity: 0.7;
+    padding: 0;
+    margin: 0;
+}
+
+.edu_wrapper_edu_one,.edu_wrapper_edu_two, .credits {
+    margin-top: 0;
+    color:#ffffff;
+    font-size: 1rem;
+    text-align: left;
+    padding: 20px 25px;
+}
+
+.edu_wrapper_wrapper_overlay a {
+    width: 200px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-style: italic;
+    transform: translateX(0px);
+    transition: transform ease-in-out 2s, background-color ease-in-out 2s;
+    color:white;
+    padding-left: 4px;
+}
+.edu_wrapper_wrapper_overlay a:hover {
+    transform: translateX(10px);    
+    background-color: #5677ae;
+}
+
 
 @media screen and  (max-width: 494px) {
     .slider div {
