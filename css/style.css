@@ -524,7 +524,7 @@ header p {
         font-size: 13px;
         width: 120px; 
     }
-    .exp_wrapper_wrapper_overlay p, .abour_wrapper_wrapper_overlay p, .edu_wrapper_wrapper_overlay p .credits {
+    .exp_wrapper_wrapper_overlay p, .abour_wrapper_wrapper_overlay p, .edu_wrapper_wrapper_overlay p, .credits {
         font-size: 1.3em;
     }
 }
