@@ -277,7 +277,7 @@ header p {
     display: block;
     height: 10px;
     position: relative; */
-    animation: mymove 3s infinite;
+    animation: mymove 2s infinite;
     animation-timing-function: ease-in-out;
     animation-direction:alternate-reverse;
     animation-delay: 1s;
@@ -296,7 +296,7 @@ header p {
     display: block;
     height: 10px;
     position: relative;
-    animation: mymove 3s infinite;
+    animation: mymove 2s infinite;
     animation-timing-function: ease-in-out;
     animation-direction:alternate-reverse;
     animation-delay: 2s;
@@ -315,7 +315,7 @@ header p {
     display: block;
     height: 10px;
     position: relative;
-    animation: mymove 3s infinite;
+    animation: mymove 2s infinite;
     animation-timing-function: ease-in-out;
     animation-direction:alternate-reverse;
     animation-delay: 3s;
@@ -334,7 +334,7 @@ header p {
     display: block;
     height: 10px;
     position: relative;
-    animation: mymove 3s infinite;
+    animation: mymove 2s infinite;
     animation-timing-function: ease-in-out;
     animation-direction:alternate-reverse;
     animation-delay: 4s;
@@ -524,7 +524,7 @@ header p {
         font-size: 10px;
         width: 120px; 
     }
-    .exp_wrapper_wrapper_overlay p, .abour_wrapper_wrapper_overlay p, .edu_wrapper_wrapper_overlay p, .credits {
+    .exp_wrapper_wrapper_overlay p, .abour_wrapper_wrapper_overlay p, .edu_wrapper_wrapper_overlay p, .credits, .about_wrapper_about_one, .about_wrapper_about_two {
         font-size: 1.3em;
     }
 }
