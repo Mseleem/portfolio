@@ -492,8 +492,48 @@ header p {
     .skills-main {
     width: 100%;
     height: 900px;
-    background: #ee7;
+    background: #eee;
     }
+    .project-sample {
+        padding: 20px 15px;
+    }
+
+    .project-sample > div {
+        position: relative;
+    }
+
+    .project-sample-overlay {
+        position: absolute;
+        display: block;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        background-color: #5677ae;
+        top: 0;
+        left: 0;
+        transition: opacity ease-in-out 1s;
+    }
+
+
+
+    .project-sample-overlay h1 {
+        width: 50px;
+        font-size: 20px;
+        color: white;
+    }
+    /* .slick-initialized{
+        display: flex;
+    }  */
+
+
+
+
+    /* .project-sample-overlay:hover {
+        opacity: 1;
+        background-color: #35343a;
+    }
+     */
+   
 
 @media screen and  (max-width: 494px) {
     .slider div {
@@ -512,7 +552,7 @@ header p {
     }
 
 }
-}
+
 @media screen and (min-width: 900px){
     body {
         width: 100vw;

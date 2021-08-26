@@ -54,9 +54,25 @@
 
     <section class="skills-main">
         <div class="project-sample">
-            <img src="images/antler.png" alt=""> 
+            <div>
+                <a href="#">    
+                    <img src="images/antler2.png" alt="">
+                    <div class="project-sample-overlay">
+                        <h1>Antler</h1>
+                        <h1>Bootstrap based website theme</h1>
+                    </div>
+                </a>
+            </div>    
+            <div>
+                <a href="#">    
+                    <img src="images/smartphone-mockup.png" alt="">    
+                    <div class="project-sample-overlay">
+                        <h1>Antler</h1>
+                        <h1>Bootstrap based website theme</h1>
+                    </div>
+                </a>
+            </div>    
         </div>
-
     </section>
 
     
@@ -125,6 +141,23 @@
                     $(".contact-info").removeClass("fade-in-custom");
                 }
             });
+            ('.project-sample').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 800,
+            arrows: false,
+        });
+        })
+
+        $(document).ready(function(){
+            $('.project-sample').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 800,
+            arrows: false,
+        });
         })
 
         const words = ["Web Designer", "Front-End Developer"]
