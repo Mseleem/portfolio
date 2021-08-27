@@ -280,6 +280,9 @@ header p {
     25%  {width: 100%;}
     100% {width: 0px;}
 }
+
+
+
 /*MOBILE SCREEN MAX WIDTH 480PX*/
 @media only screen and (max-width:480px) {
     .header-bio {width: 250px;}
@@ -296,7 +299,17 @@ header p {
     .animated-bio h1 {font-size: 20px;}
     .slider div {height: 160px;}
 }
-    
+/*SCREEN MIN WIDTH 769PX*/
+@media only screen and (min-width:769px) and (orientation: landscape) {
+    .slider div {height: 256px;}
+}   
+
+/*SCREEN MAX WIDTH 1024PX*/
+@media only screen and (min-width:1024px) and (orientation: landscape) {
+    .slider div {height: 340px;}
+}
+
+
 /*ABOUT PAGE*/
 .about_wrapper {
     width: 100%;
@@ -498,7 +511,7 @@ header p {
     
 
 
-@media screen and (min-width: 900px){
+/* @media screen and (min-width: 900px){
     body {
         width: 100vw;
         margin: 0 auto;
@@ -594,7 +607,7 @@ header p {
         display: inline-block;
         bottom: 0;
     }
-}
+} */
 @media (max-width: 500px){
     header h1{
         font-size: 3rem;
