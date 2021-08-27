@@ -29,7 +29,7 @@ a {
 /*Header Section*/
 
 header {
-    background-color:#5CCBFA;
+    background-color:#eeee;
     padding: 1rem;
     height: 100vh;
 }
@@ -615,11 +615,13 @@ header p {
     
 }
 
+
+
+
 @media screen and (min-width: 900px){
     body {
         width: 100vw;
         margin: 0 auto;
-        /* background-color: blueviolet; */
     }
     nav ul {
         justify-content: flex-end;
