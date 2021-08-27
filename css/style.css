@@ -71,7 +71,6 @@ header p {
     padding: 0;
     text-align: left;
     padding: 0 20px;
-    font-size: 10px;
     font-weight: 500;
     padding-top: 15px;
 }
@@ -295,6 +294,7 @@ header p {
     nav ul {font-size: 15px; justify-content: flex-end !important;}
     .punch_line p{font-size: 20px;}
     .animated-bio h1 {font-size: 20px;}
+    .slider div {height: 160px;}
 }
     
 /*ABOUT PAGE*/
