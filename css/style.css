@@ -287,7 +287,7 @@ header p {
     .overlay, .overlay_text {height: 100%;}
     .overlay_text {padding-top: 30px;}
     .overlay_text p {font-size: 10px;}
-    .punch_line p {font-size: 20px;}
+    .punch_line p {font-size: 20px !important;}
 }
 /*MOBILE SCREEN MAX WIDTH 768PX*/
 @media only screen and (max-width:768px) and (orientation: landscape) {
