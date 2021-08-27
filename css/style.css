@@ -40,12 +40,12 @@ header p, header h1, header h3, header ul {
     color: #35343a;
 }
 nav ul {
-    font-size: 1.2em;
+    font-size: 1.2em !important;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: center !important;
 }
 nav li {
     margin: 0 10px;
@@ -291,12 +291,12 @@ header p {
     .punch_line p {font-size: 15px;}
 }
 /*MOBILE SCREEN MAX WIDTH 768PX*/
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:768px) and (orientation: landscape) {
     nav ul {font-size: 15px; justify-content: flex-end !important;}
     .punch_line p{font-size: 20px;}
     .animated-bio h1 {font-size: 20px;}
 }
-
+    
 /*ABOUT PAGE*/
 .about_wrapper {
     width: 100%;
