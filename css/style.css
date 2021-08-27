@@ -502,6 +502,10 @@ header p {
     .project-sample > div {
         position: relative;
     }
+
+    .project-sample-bio-wrapper {
+        padding: 0 10px;
+    }
     .project-sample-bio {
         width: 450px;
         height: 200px;
