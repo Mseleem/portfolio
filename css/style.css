@@ -549,7 +549,8 @@ header p {
     .project-sample-bio a:hover{
         background-color: #5677ae;
         color: #eee;
-        transform: translateX(10px);   
+        transform: translateX(10px);    
+        
     }
 
 
