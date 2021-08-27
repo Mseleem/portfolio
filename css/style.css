@@ -507,11 +507,12 @@ header p {
         padding: 0 20px;
     }
     .project-sample-bio {
-        width: 450px;
+        width: 100%;
         height: 200px;
         border-radius: 20px;
         text-align: center;
         margin: 0 auto;
+        padding-top: 15px;
         padding-left: 0 20px;
         padding-bottom: 15px;
         transition: box-shadow ease-in 1s;
