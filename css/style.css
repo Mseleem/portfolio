@@ -292,6 +292,24 @@ header p {
     }
 }
 
+/*MOBILE SCREEN Min WIDTH 421PX & MAX 589PX*/
+@media screen and (min-width: 421px)  {
+    .slider div {
+        height: 141px;
+    }
+    nav ul {
+        justify-content: flex-end !important;
+        font-size: 1.4em !important;
+    }
+}
+
+/*MOBILE SCREEN Min WIDTH 590PX & MAX 678PX*/
+@media screen and (min-width: 590px)  {
+    .slider div {
+        height: 179px;
+    }
+}
+
 
 /*MOBILE SCREEN MAX WIDTH 480PX*/
 /* @media only screen and (max-width:480px) {
