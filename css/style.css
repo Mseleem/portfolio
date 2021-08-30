@@ -212,6 +212,9 @@ header p {
         justify-content: flex-end !important;
         font-size: 1.4em !important;
     }
+    .about_wrapper_about_one, .about_wrapper_about_two, .credits {
+        font-size: 1.3rem !important;
+    }
 }
 /*MOBILE SCREEN Min WIDTH 590PX & MAX 678PX*/
 @media screen and (min-width: 590px)  {
@@ -239,8 +242,9 @@ header p {
     nav ul {font-size: 24px !important;}
     nav li {margin: 0 20px;}
     .contact-text{font-size: 25px;}
+    .about_wrapper_about_one, .about_wrapper_about_two, .credits {font-size: 1.5rem !important;}
 }
-/*MOBILE SCREEN Min WIDTH 1071PX & MAX 1200PX*/
+/*SCREEN Min WIDTH 1071PX & MAX 1200PX*/
 @media screen and (min-width: 1071px)  {
     .four-block-wrapper-container div {height: 345px;}
     .overlay_text {height: 100%;}
@@ -251,11 +255,24 @@ header p {
     nav ul {font-size: 24px !important;}
     nav li {margin: 0 20px;}
     .contact-text{font-size: 25px;} */
+    .about_wrapper_about_one, .about_wrapper_about_two, .credits {font-size: 1.7rem !important;}
 }
-/*MOBILE SCREEN Min WIDTH 1201PX & MAX 1400PX*/
+/*SCREEN Min WIDTH 1201PX & MAX 1400PX*/
 @media screen and (min-width: 1201px)  {
+    header {
+        padding-left: 69px !important;
+        padding-right: 69px !important;
+    }
     .four-block-wrapper-container div {height: 400px;}
     .overlay_text {height: 100%;}
+    .about_wrapper_about_one, .about_wrapper_about_two, .credits {
+        padding: 40px 69px !important;
+    }
+    .contact-info {
+        padding-left: 69px !important;
+        padding-right: 69px !important;
+        padding-top: 2rem !important;
+    }
     /* 
     .overlay_text p {font-size: 20px;}
     .punch_line p {font-size: 35px!important;}
@@ -281,8 +298,8 @@ header p {
     width: 100%;
     background-color: #2c201b;
     opacity: 0.7;
-    padding: 0;
     margin: 0;
+    padding-top: 15px;
 }
 .about_wrapper_about_one,.about_wrapper_about_two, .credits {
     margin-top: 0;
@@ -300,7 +317,8 @@ header p {
     transition: transform ease-in-out 2s, background-color ease-in-out 2s;
     color:white;
     width: 180px;
-    padding-left: 4px;
+    padding: 10px;
+    border-radius: 20px;
 }
 .about_wrapper_wrapper_overlay a:hover {
     transform: translateX(10px);    
