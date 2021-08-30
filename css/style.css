@@ -19,6 +19,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-top:0;
 }
 a {
     text-decoration: none;
@@ -52,7 +53,8 @@ nav li:hover {
 }
 .header-bio{padding: 0 20px;}
 header p {
-    font-size: 1.6rem;
+    font-size: 40px;
+    margin-bottom: 0px;
     padding: 1rem 0;
     text-align: left;
     font-weight: bolder;
@@ -64,11 +66,13 @@ header p {
     padding: 0 20px;
     font-weight: 500;
     padding-top: 15px;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing:1px;
 }
 .animated-bio h1 {
     width: 650px;
-    font-size: 14px;
+    font-size: 20px;
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -176,6 +180,7 @@ header p {
 .contact-info {
     padding: 1rem;
     opacity: 1;
+    padding-top:40px;
 }
 .contact-info p {padding-left: 20px;}
 .moving_lines {
@@ -221,28 +226,39 @@ header p {
     .four-block-wrapper-container div {height: 179px;}
     nav ul {
         justify-content: flex-end !important;
-        font-size: 24px !important;
+        font-size: 16px !important;
     }
 }
 /*MOBILE SCREEN Min WIDTH 679PX & MAX 850PX*/
 @media screen and (min-width: 679px)  {
     .four-block-wrapper-container div {height: 226px;}
-    .punch_line p {font-size: 25px !important;}
-    .animated-bio h1 {font-size: 20px !important;}
+    .punch_line p {font-size: 20px !important;}
+    .animated-bio h1 {font-size: 32px !important;}
     .contact-text {font-size: 20px;}
-    nav li{margin: 0 15px;}
+    nav li{margin: 0 2px;}
 }
 /*MOBILE SCREEN Min WIDTH 851PX & MAX 1070PX*/
 @media screen and (min-width: 851px)  {
     .four-block-wrapper-container div {height: 270px;}
     .overlay_text {height: 100%;}
     .overlay_text p {font-size: 20px;}
-    .punch_line p {font-size: 35px!important;}
+    .punch_line p {font-size: 24px!important; line-height: 45px;}
     .header-bio p {font-size: 40px !important;}
-    nav ul {font-size: 24px !important;}
-    nav li {margin: 0 20px;}
+    nav ul {font-size: 16px !important;}
+    nav li {
+        margin: 0px 2px;
+        padding: 5px 10px;
+    }
     .contact-text{font-size: 25px;}
     .about_wrapper_about_one, .about_wrapper_about_two, .credits {font-size: 1.5rem !important;}
+    .header-bio-wrapper {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .contact-info {
+        width: 700px;
+        margin: 0 auto;
+    }
 }
 /*SCREEN Min WIDTH 1071PX & MAX 1200PX*/
 @media screen and (min-width: 1071px)  {
@@ -256,6 +272,14 @@ header p {
     nav li {margin: 0 20px;}
     .contact-text{font-size: 25px;} */
     .about_wrapper_about_one, .about_wrapper_about_two, .credits {font-size: 1.7rem !important;}
+    .header-bio-wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .contact-info {
+        width: 1000px;
+        margin: 0 auto;
+    }
 }
 /*SCREEN Min WIDTH 1201PX & MAX 1400PX*/
 @media screen and (min-width: 1201px)  {
