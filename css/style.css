@@ -290,7 +290,6 @@ header p {
         height: 18rem;
     }
     .project-sample-bio-2 {font-size: 17px !important}
-    /* .project-sample-bio {margin-top: 18px !important} */
 }
 /*SCREEN Min WIDTH 1071PX & MAX 1200PX*/
 @media screen and (min-width: 1071px)  {
@@ -310,6 +309,9 @@ header p {
         width: 1000px;
         margin: 0 auto;
     }
+    .skills-main {height: 402px !important;}
+    .project-sample {padding-left: 20px !important;}
+    
 }
 /*SCREEN Min WIDTH 1201PX & MAX 1400PX*/
 @media screen and (min-width: 1201px)  {
