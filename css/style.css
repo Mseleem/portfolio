@@ -232,6 +232,7 @@ header p {
         font-size: 16px !important;
     }
     .skills-main {height: 68rem !important;}
+    .project-sample-bio-2 {font-size: 18px !important;}
 }
 /*MOBILE SCREEN Min WIDTH 679PX & MAX 850PX*/
 @media screen and (min-width: 679px)  {
