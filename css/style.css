@@ -231,6 +231,7 @@ header p {
         justify-content: flex-end !important;
         font-size: 16px !important;
     }
+    .skills-main {height: 68rem !important;}
 }
 /*MOBILE SCREEN Min WIDTH 679PX & MAX 850PX*/
 @media screen and (min-width: 679px)  {
@@ -277,7 +278,7 @@ header p {
         width: 80% !important;
         margin: 20px auto;
         border-radius: 20px;
-}
+    }
     
     .project-sample {width: 47%; height: 500px;}
     .project-sample-bio-wrapper {width: 50%;}
