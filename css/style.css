@@ -330,7 +330,20 @@ header p {
         padding-right: 69px !important;
         padding-top: 2rem !important;
     }
+    .skills-main {
+        height: 481px !important;
+        width: 90% !important;
+    }
 }
+
+/*SCREEN Min WIDTH 1401PX*/
+@media screen and (min-width: 1401px)  {
+    .skills-main {
+        height: 649px !important;
+        width: 90% !important;
+    }
+}
+
 
 
 /*ABOUT PAGE*/
