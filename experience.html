@@ -34,7 +34,7 @@
                     <h1>
                         <!-- <span class="box"></span>
                         <span class="hi">Hi, I'm</span> -->
-                        <span class="text"></span>
+                        <span class="text3"></span>
                         <span class="cursor">-</span>
                     </h1>
             </div> 
@@ -107,18 +107,27 @@
         //     });
         // })
 
-        const words = ["Web Designer", "Front-End Developer"]
+        // const words = ["Web Designer", "Front-End Developer"]
+        const words3 = ["Work Experience", "career aspirations"]
 
         let cursor = gsap.to(".cursor", {opacity: 0, repeat: -1, ease: "power2.inOut"})
         let box = gsap.to(".box", {width: 100, ease: "power2.inOut", duration: 2, repeat: -1, yoyo: true})
 
 
-        let masterTl = gsap.timeline({repeat: -1})
+        // let masterTl = gsap.timeline({repeat: -1})
 
-        words.forEach(word => {
+        // words.forEach(word => {
+        // let tl = gsap.timeline({repeat:1, yoyo: true, repeatDelay: 1})
+        // tl.to(".text", {duration: 1, text: word})
+        // masterTl.add(tl)
+        // }) 
+
+        let masterTl3 = gsap.timeline({repeat: -1})
+
+        words3.forEach(word => {
         let tl = gsap.timeline({repeat:1, yoyo: true, repeatDelay: 1})
-        tl.to(".text", {duration: 1, text: word})
-        masterTl.add(tl)
+        tl.to(".text3", {duration: 1, text: word})
+        masterTl3.add(tl)
         }) 
     </script>
 </body>
