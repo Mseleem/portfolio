@@ -283,6 +283,7 @@ header p {
     }
     .project-sample-bio {height: 17rem !important;}
     .project-sample {width: 47%; height: 500px;}
+    .project-sample {padding-left: 20px !important;}
     .project-sample-bio-wrapper {
         width: 50%;
         padding-top: 20px !important;
@@ -290,6 +291,7 @@ header p {
         height: 18rem;
     }
     .project-sample-bio-2 {font-size: 17px !important}
+    
 }
 /*SCREEN Min WIDTH 1071PX & MAX 1200PX*/
 @media screen and (min-width: 1071px)  {
@@ -334,6 +336,9 @@ header p {
         height: 481px !important;
         width: 90% !important;
     }
+    .project-sample-bio-2 {
+        font-size: 21px !important;
+    }
 }
 
 /*SCREEN Min WIDTH 1401PX*/
@@ -342,6 +347,10 @@ header p {
         height: 649px !important;
         width: 90% !important;
     }
+}
+
+@media screen and (min-width: 1901px)  {
+    .project-sample-bio-wrapper {align-self: center;}
 }
 
 
