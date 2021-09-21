@@ -86,6 +86,33 @@ header p {
     display: inline-block;
     bottom: 0;
 }
+
+.action-buttons{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 4rem;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.action-buttons a {
+    font-size: 14px;
+    margin-right: 10px;
+    background: #E75B4A;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: 107px;
+    text-align: center;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.action-buttons a:hover {
+    background-color: #5677ae;
+    color: #000000 !important;
+}
+
 /*four-block-wrapper*/
 .four-block-wrapper {width: 100vw;}
 .four-block-wrapper-container {
@@ -233,6 +260,11 @@ header p {
     }
     .skills-main {height: 68rem !important;}
     .project-sample-bio-2 {font-size: 18px !important;}
+    .action-buttons{width: 23rem !important;}
+    .action-buttons a {
+        font-size: 20px;
+        width: 20rem;
+    }
 }
 /*MOBILE SCREEN Min WIDTH 679PX & MAX 850PX*/
 @media screen and (min-width: 679px)  {
